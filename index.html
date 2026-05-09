@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Memory Card Matching Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Memory Card Matching Game</h1>
+
+    <p>Attempts: <span id="attempts">0</span></p>
+    <p id="message"></p>
+
+    <div class="game-container">
+        <div class="card" data-value="Red"></div>
+        <div class="card" data-value="Grey"></div>
+        <div class="card" data-value="White"></div>
+        <div class="card" data-value="Green"></div>
+        <div class="card" data-value="Red"></div>
+        <div class="card" data-value="Purple"></div>
+        <div class="card" data-value="Yellow"></div>
+        <div class="card" data-value="Purple"></div>
+        <div class="card" data-value="Yellow"></div>
+        <div class="card" data-value="Blue"></div>
+        <div class="card" data-value="Green"></div>
+        <div class="card" data-value="Pink"></div>
+        <div class="card" data-value="Blue"></div>
+        <div class="card" data-value="Pink"></div>
+        <div class="card" data-value="White"></div>
+        <div class="card" data-value="Grey"></div>
+    </div>
+    <br>
+    <button onclick="resetGame()">Reset Game</button>
+    <div id="confetti-container"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
